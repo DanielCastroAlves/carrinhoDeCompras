@@ -1,0 +1,181 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .header select {
+    font-size: 14px;
+  }
+}
+
+.produto {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.produto img {
+  width: 100px;
+  height: auto;
+}
+
+.info-produto {
+  margin-top: 10px;
+}
+
+.info-produto h3 {
+  margin: 0;
+}
+
+.info-produto p {
+  margin: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Estilos para tornar o seletor responsivo */
+@media screen and (max-width: 600px) {
+  .header select {
+    font-size: 14px;
+  }
+}
+
+.lista-produtos {
+  list-style: none; /* Remova os marcadores de lista */
+  padding: 0;
+}
+
+.produto-item {
+  display: inline-block;
+  width: 23%;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box; /* Garante que a largura e altura incluam padding e borda */
+}
+
+.produto-item img {
+  width: 100%; /* Garante que a imagem ocupe 100% da largura do container */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.produto-info {
+  margin-top: 10px;
+}
+
+.produto-info h3 {
+  margin: 0;
+}
+
+.produto-info p {
+  margin: 0;
+}
+
+.botao-adicionar {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao-adicionar:hover {
+  background-color: #0056b3;
+}
+
+.paginacao {
+  margin-top: 20px;
+}
+
+.paginacao button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paginacao button:hover {
+  background-color: #0056b3;
+}
+
+.paginacao span {
+  font-weight: bold;
+}
+
+.carrinho {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrinho h2 {
+  margin-bottom: 10px;
+}
+
+.lista-itens {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item span {
+  margin-right: 10px;
+}
+
+.botao-remover {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao-remover:hover {
+  background-color: #c82333;
+}
+
+.total {
+  margin-top: 20px;
+  font-weight: bold;
+}
